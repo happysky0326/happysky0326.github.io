@@ -6,14 +6,60 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2017/1 | Jie的博客</title>
+  <title>Jie的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="H5_data*属性
+data-*这个属性解决了自定义Html标签内属性取值的问题,只要我们想,可以往HTML标签中添加任意个数的属性
+
+
+语法:
+data-:这个是固定格式
+data-xxx:xxx是自定义的值
+
+
+注意:
+
+属性名不应该包含任何大写字母，并且在前缀 “data-“ 之后必须有至少一个字符
+属性值可以是任意字符串
+不要使用纯数字,特殊字符等作为自定义值
+如果data之后使用-连接">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Jie的博客">
-<meta property="og:url" content="http://yoursite.com/archives/2017/01/index.html">
+<meta property="og:url" content="http://yoursite.com/2017/01/18/h5-data自定义属性/index.html">
 <meta property="og:site_name" content="Jie的博客">
+<meta property="og:description" content="H5_data*属性
+data-*这个属性解决了自定义Html标签内属性取值的问题,只要我们想,可以往HTML标签中添加任意个数的属性
+
+
+语法:
+data-:这个是固定格式
+data-xxx:xxx是自定义的值
+
+
+注意:
+
+属性名不应该包含任何大写字母，并且在前缀 “data-“ 之后必须有至少一个字符
+属性值可以是任意字符串
+不要使用纯数字,特殊字符等作为自定义值
+如果data之后使用-连接">
+<meta property="og:updated_time" content="2017-01-15T17:06:04.022Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Jie的博客">
+<meta name="twitter:description" content="H5_data*属性
+data-*这个属性解决了自定义Html标签内属性取值的问题,只要我们想,可以往HTML标签中添加任意个数的属性
+
+
+语法:
+data-:这个是固定格式
+data-xxx:xxx是自定义的值
+
+
+注意:
+
+属性名不应该包含任何大写字母，并且在前缀 “data-“ 之后必须有至少一个字符
+属性值可以是任意字符串
+不要使用纯数字,特殊字符等作为自定义值
+如果data之后使用-连接">
   
     <link rel="alternative" href="/atom.xml" title="Jie的博客" type="application/atom+xml">
   
@@ -149,70 +195,161 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-h5-data自定义属性" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="H5-data-属性"><a href="#H5-data-属性" class="headerlink" title="H5_data*属性"></a>H5_data*属性</h1><blockquote>
+<p>data-*这个属性解决了自定义Html标签内属性取值的问题,只要我们想,可以往<code>HTML</code>标签中添加任意个数的属性</p>
+</blockquote>
+<ul>
+<li><strong>语法:</strong><ul>
+<li>data-:这个是固定格式</li>
+<li>data-xxx:xxx是自定义的值</li>
+</ul>
+</li>
+<li><p><strong>注意:</strong></p>
+<ul>
+<li>属性名不应该包含任何大写字母，并且在前缀 “data-“ 之后必须有至少一个字符</li>
+<li>属性值可以是任意字符串</li>
+<li>不要使用纯数字,特殊字符等作为自定义值</li>
+<li>如果data之后使用<code>-</code>连接多个值,取值时,需要使用<code>驼峰命名</code></li>
+</ul>
+</li>
+<li><p><strong>示例代码:</strong></p>
+</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">li</span> <span class="attr">data-animal-type</span>=<span class="string">"bird"</span>&gt;</span>Owl<span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">li</span> <span class="attr">data-animal-type</span>=<span class="string">"fish"</span>&gt;</span>Salmon<span class="tag">&lt;/<span class="name">li</span>&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">li</span> <span class="attr">data-animal-type</span>=<span class="string">"spider"</span>&gt;</span>Tarantula<span class="tag">&lt;/<span class="name">li</span>&gt;</span> </div><div class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li><strong>获取方式:</strong></li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">// 假定有这么一个元素</div><div class="line"><span class="tag">&lt;<span class="name">li</span> <span class="attr">data-type</span>=<span class="string">"bird"</span> <span class="attr">id</span>=<span class="string">"liObj"</span>&gt;</span>Owl<span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">li</span> <span class="attr">data-animal-type</span>=<span class="string">"spider"</span> <span class="attr">id</span>=<span class="string">"liObj2"</span>&gt;</span>蜘蛛<span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span></div><div class="line">    var domObj = document.getElementById("liObj");</div><div class="line">   var type = domObj.dataset["type"]</div><div class="line">   </div><div class="line">    var domObj2 = document.getElementById("liObj2");</div><div class="line">   var type2 = domObj.dataset["animalType"]</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li><strong>总结:</strong><ul>
+<li>属性名为:data-xxx <ul>
+<li>xxx为自定义值,不能使用大写字母(不建议使用纯数字,或者奇怪字符)</li>
+</ul>
+</li>
+<li><strong>获取方式:</strong><ul>
+<li>在js中获取了元素之后,通过<code>dataset[&quot;key&quot;]</code>即可获取保存的值</li>
+<li>其中key为<code>data-xxx</code>中 xxx的字母</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
       
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/01/18/h5-data自定义属性/" class="archive-article-date">
-  	<time datetime="2017-01-18T12:51:23.786Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-01-18</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/01/18/h5-data自定义属性/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/01/17/hello-world/" class="archive-article-date">
-  	<time datetime="2017-01-17T03:11:43.515Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-01-17</time>
-</a>
-        </div>
-    	 
+<nav id="article-nav">
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/01/17/hello-world/">Hello World</a>
-    </h1>
+  
+    <a href="/2017/01/17/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+
+
+
+
+  
+    <div class="duoshuo"></div>
   
 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
 
 
           </div>
@@ -235,8 +372,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,

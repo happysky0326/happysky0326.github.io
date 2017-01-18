@@ -151,6 +151,80 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-h5-data自定义属性" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="H5-data-属性"><a href="#H5-data-属性" class="headerlink" title="H5_data*属性"></a>H5_data*属性</h1><blockquote>
+<p>data-*这个属性解决了自定义Html标签内属性取值的问题,只要我们想,可以往<code>HTML</code>标签中添加任意个数的属性</p>
+</blockquote>
+<ul>
+<li><strong>语法:</strong><ul>
+<li>data-:这个是固定格式</li>
+<li>data-xxx:xxx是自定义的值</li>
+</ul>
+</li>
+<li><p><strong>注意:</strong></p>
+<ul>
+<li>属性名不应该包含任何大写字母，并且在前缀 “data-“ 之后必须有至少一个字符</li>
+<li>属性值可以是任意字符串</li>
+<li>不要使用纯数字,特殊字符等作为自定义值</li>
+<li>如果data之后使用<code>-</code>连接多个值,取值时,需要使用<code>驼峰命名</code></li>
+</ul>
+</li>
+<li><p><strong>示例代码:</strong></p>
+</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">li</span> <span class="attr">data-animal-type</span>=<span class="string">"bird"</span>&gt;</span>Owl<span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">li</span> <span class="attr">data-animal-type</span>=<span class="string">"fish"</span>&gt;</span>Salmon<span class="tag">&lt;/<span class="name">li</span>&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">li</span> <span class="attr">data-animal-type</span>=<span class="string">"spider"</span>&gt;</span>Tarantula<span class="tag">&lt;/<span class="name">li</span>&gt;</span> </div><div class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li><strong>获取方式:</strong></li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">// 假定有这么一个元素</div><div class="line"><span class="tag">&lt;<span class="name">li</span> <span class="attr">data-type</span>=<span class="string">"bird"</span> <span class="attr">id</span>=<span class="string">"liObj"</span>&gt;</span>Owl<span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">li</span> <span class="attr">data-animal-type</span>=<span class="string">"spider"</span> <span class="attr">id</span>=<span class="string">"liObj2"</span>&gt;</span>蜘蛛<span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span></div><div class="line">    var domObj = document.getElementById("liObj");</div><div class="line">   var type = domObj.dataset["type"]</div><div class="line">   </div><div class="line">    var domObj2 = document.getElementById("liObj2");</div><div class="line">   var type2 = domObj.dataset["animalType"]</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li><strong>总结:</strong><ul>
+<li>属性名为:data-xxx <ul>
+<li>xxx为自定义值,不能使用大写字母(不建议使用纯数字,或者奇怪字符)</li>
+</ul>
+</li>
+<li><strong>获取方式:</strong><ul>
+<li>在js中获取了元素之后,通过<code>dataset[&quot;key&quot;]</code>即可获取保存的值</li>
+<li>其中key为<code>data-xxx</code>中 xxx的字母</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/01/18/h5-data自定义属性/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
     <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
